@@ -1,9 +1,45 @@
 let currentScene = "inicio";
 
+/* ========================= */
+/*        PERSONAJE          */
+/* ========================= */
+
 let playerName = "";
 
+const player = {
+
+    nombre: "",
+
+    habilidades: {
+
+        liderazgo: 0,
+
+        tecnica: 0,
+
+        exploracion: 0
+
+    },
+
+    relaciones: {
+
+        valentina: 0,
+
+        cristian: 0,
+
+        ortega: 0,
+
+        daniel: 0,
+
+        javi: 0
+
+    },
+
+    decisiones: []
+
+};
+
 /* ========================= */
-/* ELEMENTOS */
+/*        ELEMENTOS          */
 /* ========================= */
 
 const coverScreen =
@@ -34,7 +70,7 @@ const choicesDiv =
     document.getElementById("choices");
 
 /* ========================= */
-/* EVENTOS */
+/*          EVENTOS          */
 /* ========================= */
 
 coverBtn.addEventListener(
@@ -48,7 +84,7 @@ startBtn.addEventListener(
 );
 
 /* ========================= */
-/* PORTADA */
+/*          PORTADA          */
 /* ========================= */
 
 function startIntro(){
@@ -63,7 +99,7 @@ function startIntro(){
 }
 
 /* ========================= */
-/* CREAR PERSONAJE */
+/*       CREAR PERSONAJE     */
 /* ========================= */
 
 function startGame(){
@@ -90,7 +126,7 @@ function startGame(){
 }
 
 /* ========================= */
-/* MOSTRAR ESCENA */
+/*       MOSTRAR ESCENA      */
 /* ========================= */
 
 function showScene(){
