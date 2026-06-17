@@ -100,9 +100,10 @@ Nada cambiaba jamás.`,
     senal: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/senal.png",
-        texto: `Hasta aquella alarma.
+        texto: `Hasta aquella alarma, ese sonido que nunca antes pensamo escuchar, sonó.
 
-La alarma que cambió todo.`,
+No sabiamos de que se trataba, pero sí sabiamos que desde ese momento
+ya nada sería igual`,
         opciones: [
             {
                 texto: "Atrás",
