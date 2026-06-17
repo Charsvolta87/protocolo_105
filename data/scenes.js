@@ -22,9 +22,14 @@ Todo parece normal.`,
 
         opciones: [
             {
-                texto: "Continuar",
+                texto: "Atrás",
+                siguiente: "inicio"
+            },
+            {
+                texto: "Siguiente",
                 siguiente: "senal"
             }
+            
         ]
     },
 
@@ -34,7 +39,16 @@ Todo parece normal.`,
 
 Una señal desconocida acaba de ser detectada.`,
 
-        opciones: []
+        opciones: [
+            {
+                texto: "Atrás",
+                siguiente: "estacion"
+            },
+            {
+                texto: "Comenzar",
+                siguiente: ""
+            }
+        ]
     }
 
 };
