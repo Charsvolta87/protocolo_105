@@ -44,9 +44,7 @@ como si fueran leyendas.`,
     inicio2: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/inicio.png",
-        texto: `Océanos.
-
-Bosques, lluvia, animales, ciudades que se extendían hasta donde alcanzaba la vista.
+        texto: `Océanos, bosques, lluvia, animales, ciudades que se extendían hasta donde alcanzaba la vista.
 A veces nos preguntabamos si realmente existió.`,
         opciones: [
             {
