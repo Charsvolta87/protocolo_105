@@ -62,7 +62,8 @@ A veces nos preguntabamos si realmente existió.`,
     estacion: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/estacion.png",
-        texto: `La humanidad vive dispersa entre estaciones espaciales y colonias construidas en mundos lejanos.
+        texto: `La humanidad vive dispersa entre estaciones espaciales y colonias
+        construidas en mundos lejanos.
         Pequeños refugios suspendidos en la oscuridad.
 La nuestra orbita una estrella sin nombre en una región olvidada del espacio conocido.
 Estamos tan lejos de la Tierra que ni siquiera aparece en nuestros mapas.
@@ -109,9 +110,9 @@ Nada cambiaba jamás.`,
     senal: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/senal.png",
-        texto: `Hasta aquella alarma, ese sonido que nunca antes pensamo escuchar, sonó.
+        texto: `Hasta que un dia ese sonido que nunca antes pensamos escuchar, llegó.
 
-No sabiamos de que se trataba, pero sí sabiamos que desde ese momento
+No sabiamos de qué se trataba, pero sí sabiamos que desde ese momento
 ya nada sería igual`,
         opciones: [
             {
