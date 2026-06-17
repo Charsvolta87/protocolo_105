@@ -1,5 +1,9 @@
 const scenes = {
 
+        //////////////////////
+        ///* INTRODUCCION *///
+        //////////////////////
+
     inicio: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/inicio.png",
@@ -115,20 +119,9 @@ La alarma que cambió todo.`,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        ////////////////////
+        ///* Capitulo 1 *///
+        ////////////////////
 
 
     capitulo1: {
