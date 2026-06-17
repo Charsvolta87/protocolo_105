@@ -5,9 +5,7 @@ const scenes = {
         imagen: "imagenes/prologo/inicio.png",
         texto: `Año 2478.
 
-En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de lo que alguna vez llamaron Tierra.
-`,
-
+En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de lo que alguna vez llamaron Tierra.`,
         opciones: [
             {
                 texto: "Continuar",
@@ -21,8 +19,7 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
         imagen: "imagenes/prologo/estacion.png",
         texto: `En esta pequeña estación espacial los restos sobrevivientes de la raza humana intenta seguir con vida.
 
-        Todo parece normal.`,
-
+Todo parece normal.`,
         opciones: [
             {
                 texto: "Atrás",
@@ -32,7 +29,6 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
                 texto: "Siguiente",
                 siguiente: "senal"
             }
-            
         ]
     },
 
@@ -42,7 +38,6 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
         texto: `Hasta que una alarma rompe el silencio.
 
 Una señal desconocida acaba de ser detectada.`,
-
         opciones: [
             {
                 texto: "Atrás",
@@ -52,15 +47,14 @@ Una señal desconocida acaba de ser detectada.`,
                 texto: "Comenzar",
                 siguiente: "capitulo1"
             }
-        ],
+        ]
+    },
 
-        
-capitulo1: {
-    titulo: "Buen dia",
-    imagen: "imagenes/placeholder",
-    texto: `La mañana del día 75 del año 178 todo parecía normal, hasta la hora 15:45, vino a buscarme Daniel para subir al comedor a desayunar, la noche anterior me quedé con Javi hasta tarde divagando acerca de como será llegar a Galiet.`,
-    opciones: [
-
+    capitulo1: {
+        titulo: "Buen día",
+        imagen: "imagenes/placeholder.png",
+        texto: `La mañana del día 75 del año 178 todo parecía normal, hasta la hora 15:45, vino a buscarme Daniel para subir al comedor a desayunar. La noche anterior me quedé con Javi hasta tarde divagando acerca de cómo será llegar a Galiet.`,
+        opciones: [
             {
                 texto: "Aceptar",
                 siguiente: "desayuno"
@@ -69,8 +63,7 @@ capitulo1: {
                 texto: "No aceptar",
                 siguiente: "camarote"
             }
-    ]
-},
+        ]
     }
 
 };
