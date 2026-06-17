@@ -45,6 +45,10 @@ button{
 <label>ID de la escena</label>
 <input id="sceneId" placeholder="ej: alarma">
 
+<label>Ruta de la imagen</label>
+<input id="sceneImage"
+placeholder="imagenes/prologo/universo.jpg">
+
 <label>Texto</label>
 <textarea id="sceneText" rows="8"></textarea>
 
@@ -92,6 +96,9 @@ function generar(){
     const id =
         document.getElementById("sceneId").value;
 
+    const imagen =
+    document.getElementById("sceneImage").value;
+    
     const texto =
         document.getElementById("sceneText").value;
 
@@ -119,11 +126,15 @@ function generar(){
     const resultado = `
 
 ${id}: {
+
+    imagen: "${imagen}",
+
     texto: \`${texto}\`,
 
     opciones: [
 ${opciones}
     ]
+
 },
 `;
 
