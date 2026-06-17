@@ -27,8 +27,7 @@ La conocemos por archivos incompletos...`,
     inicio: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/inicio.png",
-        texto: `Año 174 D.H.
-(Después de la Huida)
+        texto: `Año 174 D.H. (Después de la Huida)
 Nunca vi la Tierra, nadie de mi generación la vio.
 La conocemos por archivos incompletos, grabaciones
 dañadas y relatos transmitidos durante generaciones
