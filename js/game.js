@@ -12,6 +12,9 @@ const choicesDiv = document.getElementById("choices");
 
 startBtn.addEventListener("click", startGame);
 
+const sceneImage =
+    document.getElementById("scene-image");
+
 function startGame() {
 
     playerName =
@@ -31,6 +34,7 @@ function startGame() {
 function showScene() {
 
     const scene = scenes[currentScene];
+    sceneImage.src = scene.imagen;
 
     if (!scene) {
 

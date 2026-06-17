@@ -7,7 +7,7 @@
 body{
     font-family:Arial, sans-serif;
 
-    background-image:url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+
 
     background-size:cover;
     background-position:center;
@@ -83,4 +83,17 @@ button:hover{
 
 .hidden{
     display:none;
+}
+
+#scene-image{
+
+    width:100%;
+
+    max-height:450px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
 }
