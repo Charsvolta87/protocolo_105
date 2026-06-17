@@ -49,6 +49,15 @@ h1{
     color:#7fff7f;
 }
 
+.thumb{
+    width:100%;
+    max-height:180px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-bottom:10px;
+    border:1px solid #444;
+}
+
 </style>
 </head>
 
@@ -73,9 +82,22 @@ for(const id in scenes){
     div.className = "node";
 
     let html = `
-        <h3>${id}</h3>
-        <p>${scene.texto.substring(0,100)}...</p>
-    `;
+    <h3>${scene.titulo}</h3>
+
+        <small>
+        ID: ${id}
+        </small>
+
+    <img
+        src="../${scene.imagen}"
+        class="thumb"
+        alt="${id}"
+    >
+
+    <p>
+        ${scene.texto.substring(0,100)}...
+    </p>
+`;
 
     if(scene.opciones.length > 0){
 
