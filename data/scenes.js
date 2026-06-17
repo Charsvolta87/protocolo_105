@@ -50,9 +50,27 @@ Una señal desconocida acaba de ser detectada.`,
             },
             {
                 texto: "Comenzar",
-                siguiente: ""
+                siguiente: "capitulo1"
             }
-        ]
+        ],
+
+        
+capitulo1: {
+    titulo: "Buen dia",
+    imagen: "imagenes/buen dia/comienzo.png",
+    texto: `La mañana del día 75 del año 178 todo parecía normal, hasta la hora 15:45, vino a buscarme Daniel para subir al comedor a desayunar, la noche anterior me quedé con Javi hasta tarde divagando acerca de como será llegar a Galiet.`,
+    opciones: [
+
+            {
+                texto: "Aceptar",
+                siguiente: "desayuno"
+            },
+            {
+                texto: "No aceptar",
+                siguiente: "camarote"
+            }
+    ]
+},
     }
 
 };
