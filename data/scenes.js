@@ -177,8 +177,7 @@ No era café verdadero.
 Nadie recordaba cómo sabía el café verdadero.
 Pero era lo suficientemente parecido para engañar a la mayoría.
 En una mesa cercana, un grupo discutía sobre una falla en los sistemas de reciclaje.
-En otra, dos técnicos apostaban quién conseguiría una transferencia a una colonia exterior antes de terminar la órbita.
-Las mismas conversaciones de siempre.
+Las mismas conversaciones de siempre. Martín se acercó a mi con una de esas tazas 
 `,
         opciones: [
             {
@@ -186,8 +185,12 @@ Las mismas conversaciones de siempre.
                 siguiente: "capitulo1"
             },
             {
-                texto: "Continuar",
-                siguiente: "desayunar"
+                texto: "Beber café",
+                siguiente: "bebercafe"
+            },
+            {
+                texto: "Rechazar café",
+                siguiente: "rechazarcafe"
             }
         ]
     },
