@@ -61,9 +61,7 @@ A veces nos preguntabamos si realmente existió.`,
         titulo: "Introducción",
         imagen: "imagenes/prologo/estacion.png",
         texto: `La humanidad vive dispersa entre estaciones espaciales y colonias construidas en mundos lejanos. Pequeños refugios suspendidos en la oscuridad.
-La nuestra se llama Nueva Esperanza.
-Un nombre optimista para un lugar que apenas sobrevive.
-La estación orbita una estrella sin nombre en una región olvidada del espacio conocido. Estamos tan lejos de la Tierra que ni siquiera aparece en nuestros mapas.
+La nuestra orbita una estrella sin nombre en una región olvidada del espacio conocido. Estamos tan lejos de la Tierra que ni siquiera aparece en nuestros mapas.
 Y sin embargo, todavía pensamos en ella.
 Todavía soñamos con ella.
 
