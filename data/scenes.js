@@ -1,6 +1,7 @@
 const scenes = {
 
     inicio: {
+        titulo: "Bienvenido a<br>Protocolo 105",
         imagen: "imagenes/prologo/inicio.png",
         texto: `Año 2478.
 
@@ -16,6 +17,7 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
     },
 
     estacion: {
+        titulo: "Introducción",
         imagen: "imagenes/prologo/estacion.png",
         texto: `En esta pequeña estación espacial los restos sobrevivientes de la raza humana intenta seguir con vida.
 
@@ -35,6 +37,7 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
     },
 
     senal: {
+        titulo: "Introducción",
         imagen: "imagenes/prologo/señal.png",
         texto: `Hasta que una alarma rompe el silencio.
 
