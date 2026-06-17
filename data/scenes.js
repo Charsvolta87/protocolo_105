@@ -128,7 +128,7 @@ ya nada sería igual.`,
     },
     intro_final: {
     titulo: "Identificación",
-    imagen: "imagenes/prologo/placeholder.png",
+    imagen: "imagenes/prologo/identificacion.webp",
     texto: `Antes de acceder a los registros de comunicaciones debe identificarse.`,
     opciones: [
     {
