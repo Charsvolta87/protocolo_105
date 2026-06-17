@@ -12,6 +12,9 @@ const choicesDiv = document.getElementById("choices");
 
 startBtn.addEventListener("click", startGame);
 
+const sceneTitle =
+    document.getElementById("scene-title");
+    
 const sceneImage =
     document.getElementById("scene-image");
 
@@ -44,6 +47,11 @@ function showScene() {
 
         return;
     }
+      sceneTitle.innerHTML =
+        scene.titulo;
+
+    sceneImage.src =
+        scene.imagen;
 
     let text = scene.texto;
 
