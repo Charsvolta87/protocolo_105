@@ -114,7 +114,7 @@ Nada cambiaba jamás.`,
 
 No sabíamos si era cierto, tampoco de qué se trataba exactamente,
 pero sí sabiamos que desde ese momento
-ya nada sería igual`,
+ya nada sería igual.`,
         opciones: [
             {
                 texto: "Atrás",
