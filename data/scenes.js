@@ -3,10 +3,41 @@ const scenes = {
     inicio: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/inicio.png",
-        texto: `Año 2478.
+        texto: `Año 174 D.H.
+(Después de la Huida)
 
-En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de lo que alguna vez llamaron Tierra.`,
+Nunca vi la Tierra.
+
+Nadie de mi generación la vio.
+
+La conocemos por archivos incompletos, grabaciones dañadas y relatos transmitidos durante generaciones como si fueran leyendas.`,
         opciones: [
+            {
+                texto: "Continuar",
+                siguiente: "inicio2"
+            }
+        ]
+    },
+
+    inicio2: {
+        titulo: "Introducción",
+        imagen: "imagenes/prologo/inicio.png",
+        texto: `Océanos.
+
+Bosques.
+
+Lluvia.
+
+Animales.
+
+Ciudades que se extendían hasta donde alcanzaba la vista.
+
+A veces me pregunto si realmente existió.`,
+        opciones: [
+            {
+                texto: "Atrás",
+                siguiente: "inicio"
+            },
             {
                 texto: "Continuar",
                 siguiente: "estacion"
@@ -17,17 +48,46 @@ En alguna parte del extenso universo la humanidad se encuentra a salvo, lejos de
     estacion: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/estacion.png",
-        texto: `En esta pequeña estación espacial los restos sobrevivientes de la raza humana intenta seguir con vida.
+        texto: `La humanidad vive dispersa entre estaciones espaciales y colonias construidas en mundos lejanos. Pequeños refugios suspendidos en la oscuridad.
+La nuestra se llama Nueva Esperanza.
+Un nombre optimista para un lugar que apenas sobrevive.
+La estación orbita una estrella sin nombre en una región olvidada del espacio conocido. Estamos tan lejos de la Tierra que ni siquiera aparece en nuestros mapas.
+Y sin embargo, todavía pensamos en ella.
+Todavía soñamos con ella.
 
-Todo parece normal.`,
+Todavía la extrañamos.
+Aunque nunca la hayamos visto.`,
         opciones: [
             {
                 texto: "Atrás",
-                siguiente: "inicio"
+                siguiente: "inicio2"
             },
             {
                 texto: "Siguiente",
-                siguiente: "senal"
+                siguiente: "estacion2"
+            }
+        ]
+    },
+
+     estacion2: {
+        titulo: "Introducción",
+        imagen: "imagenes/prologo/estacion.png",
+        texto: `Yo era operador de comunicaciones.
+Un trabajo aburrido.
+Escuchar ruido, analizar transmisiones,
+revisar sistemas, completar informes,
+volver a empezar.
+Ciclo tras ciclo.
+
+Nada cambiaba jamás.`,
+        opciones: [
+            {
+                texto: "Atrás",
+                siguiente: "estacion"
+            },
+            {
+                texto: "Siguiente",
+                siguiente: "señal"
             }
         ]
     },
@@ -35,9 +95,9 @@ Todo parece normal.`,
     senal: {
         titulo: "Introducción",
         imagen: "imagenes/prologo/senal.png",
-        texto: `Hasta que una alarma rompe el silencio.
+        texto: `Hasta aquella alarma.
 
-Una señal desconocida acaba de ser detectada.`,
+La alarma que cambió todo.`,
         opciones: [
             {
                 texto: "Atrás",
@@ -49,6 +109,26 @@ Una señal desconocida acaba de ser detectada.`,
             }
         ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     capitulo1: {
         titulo: "Buen día",
