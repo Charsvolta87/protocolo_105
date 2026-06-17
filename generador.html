@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Generador de Escenas</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+input,textarea{
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+}
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.opcion{
+    border:1px solid #ccc;
+    padding:10px;
+    margin:10px 0;
+}
+
+#resultado{
+    white-space:pre-wrap;
+    background:#eee;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Generador de Escenas</h1>
+
+<label>ID de la escena</label>
+<input id="sceneId" placeholder="ej: alarma">
+
+<label>Texto</label>
+<textarea id="sceneText" rows="8"></textarea>
+
+<div id="opciones"></div>
+
+<button onclick="agregarOpcion()">
+Agregar opción
+</button>
+
+<button onclick="generar()">
+Generar escena
+</button>
+
+<h2>Resultado</h2>
+
+<pre id="resultado"></pre>
+
+<script>
+
+let contador = 0;
+
+function agregarOpcion(){
+
+    contador++;
+
+    const div = document.createElement("div");
+
+    div.className = "opcion";
+
+    div.innerHTML = `
+        <label>Texto opción</label>
+        <input class="textoOpcion">
+
+        <label>Escena destino</label>
+        <input class="destinoOpcion">
+    `;
+
+    document
+        .getElementById("opciones")
+        .appendChild(div);
+}
+
+function generar(){
+
+    const id =
+        document.getElementById("sceneId").value;
+
+    const texto =
+        document.getElementById("sceneText").value;
+
+    const textos =
+        document.querySelectorAll(".textoOpcion");
+
+    const destinos =
+        document.querySelectorAll(".destinoOpcion");
+
+    let opciones = "";
+
+    for(let i=0;i<textos.length;i++){
+
+        opciones += `
+            {
+                texto: "${textos[i].value}",
+                siguiente: "${destinos[i].value}"
+            }`;
+
+        if(i < textos.length-1){
+            opciones += ",";
+        }
+    }
+
+    const resultado = `
+
+${id}: {
+    texto: \`${texto}\`,
+
+    opciones: [
+${opciones}
+    ]
+},
+`;
+
+    document
+        .getElementById("resultado")
+        .textContent = resultado;
+}
+</script>
+
+</body>
+</html>
